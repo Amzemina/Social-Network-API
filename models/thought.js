@@ -21,6 +21,9 @@ const reactionSchema = new Schema (
        createdAt: {
         type: Date,
         default: Date.now,
+        get: (createdAt) => {
+          return new Date(createdAt).toISOString();
+        }
        },
     },
     {
@@ -44,6 +47,9 @@ const thoughtSchema = new Schema (
       createdAt: {
         type: Date,
         default: Date.now,
+        get: (createdAt) => {
+          return new Date(createdAt).toISOString();
+        }
       },
       username: {
         type: String,
