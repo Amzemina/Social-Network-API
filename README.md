@@ -8,7 +8,6 @@ Insomnia.
 ## Table of Contents
   * [Installation](#installation)
   * [Usage](#usage)
-  * [Contributing](#contributing)
   * [Tests](#tests)
   * [Questions](#questions)
 
@@ -17,6 +16,10 @@ User downloads repository, then runs `npm install`,
 Node.js and MongoDB is required to run the application.
 
 ## Usage
+Heres a walkthrugh video demonstrating how the application works:
+
+[Untitled_ Oct 10 2023 11_25 AM.webm](https://github.com/Amzemina/Social-Network-API/assets/128834562/522cb6e8-b51f-492e-984a-b6b885036bfb)
+
 
 ## Tests
 Insomnia is used to test the REST API calls.
